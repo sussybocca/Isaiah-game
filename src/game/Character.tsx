@@ -2,7 +2,7 @@ import { useFrame, useLoader } from '@react-three/fiber';
 import { RoundedBox, Text } from '@react-three/drei';
 import { useMemo, useRef } from 'react';
 import * as THREE from 'three';
-import faceUrl from '../assets/isaiah-face.jpg';
+import faceUrl from '../assets/isaiah-face.svg';
 
 type AvatarProps={moving:boolean;running:boolean;crouching:boolean;speed:number;};
 const dark='#171b23', jacket='#d8d6d0', skin='#ab795c', pants='#202b3b';
