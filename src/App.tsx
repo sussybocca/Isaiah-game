@@ -4,7 +4,7 @@ import { GameScene } from './game/GameScene';
 import { Item, ITEMS, KEY_COUNT, Phase, STORY_CHOICES } from './game/data';
 import { canOpenDreamExit, getCatchOutcome, Point } from './game/rules';
 import { SoundEngine } from './game/sound';
-import portrait from './assets/isaiah-portrait.jpg';
+import portrait from './assets/isaiah-portrait.svg';
 
 type Save={collected:string[];catches:number};
 const STORAGE='isaiah-house-after-dark:chapter-1';
